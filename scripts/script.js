@@ -1,9 +1,129 @@
-let a = 5;
-let b = 7;
+let count = 5;
 
-const c = 8;
+
+
+
+5 * 5;
+5 < 15;
+false;
+
+
 {
-  let a = 9;
+  let x = 10;
+  if (x > 6) {
+    // Do something
+  }
+
+
+
+
+  console.log(x == '10');  true
+  console.log(x === '10');  false
+  console.log(x !== '10');  true
+  console.log(x > 6);  true
+  console.log(x < 6);  false 
+  console.log(x >= '10');  true
+  console.log(x <= '10');  true
+
+
+
+
+
+console.log(true && false);  false
+console.log(true || false);  true
+console.log(!true);  false
+
+
+
+
+
+
+console.log(5 > '');   true
+console.log(5 > 'code');   false
+console.log(5 < 'code');   false
+console.log('5' > '6');   false
+console.log('5' < '6');   true
+
+
+let y = 5;
+if (y > 6) {
+
+} else {
+
 }
 
-console.log(a);
+}
+
+
+
+
+{
+
+  let x = 'first';
+  if (x === 'third') {
+    console.log('this line ran');
+  } else if (x === 'second') {
+    console.log('this line ran');
+  } else if (x === 'first') {
+    console.log('this line ran') 
+  }
+
+
+}
+
+
+
+let x = 'niether';
+if (x === 'third') {
+  console.log('this line ran');
+} else if (x === 'second') {
+  console.log('this line ran');
+} else {
+  console.log('this line ran') `this line ran` 
+}
+
+
+
+
+const k = 10;
+const y =7;
+let first = (y < k) ? y : k; 
+console.log(first)
+
+// Switch statement
+let page = 'home';
+
+switch (page) {
+  case 'home': {
+    console.log('homepage');
+    break
+  }
+    case 'about': {
+    console.log('aboutpage');
+    break
+  }
+    case 'contact': {
+    console.log('contactpage');
+    break
+  }
+}
+
+
+// Loops
+
+for (let x = 0; x < 5; x++) {
+  console.log('');
+}
+
+
+let q = 0;
+while (q < 5) {
+  console.log('while loop')
+  q++;
+}
+
+
+let h = 10;
+do {
+  console.log('always runs once')  
+} while (h > 20)
