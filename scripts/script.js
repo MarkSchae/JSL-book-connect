@@ -91,7 +91,7 @@ let first = (y < k) ? y : k;
 console.log(first)
 
 // Switch statement
-let page = 'home';
+let page = 'contact';
 
 switch (page) {
   case 'home': {
@@ -127,3 +127,10 @@ let h = 10;
 do {
   console.log('always runs once')  
 } while (h > 20)
+
+for (let x = 0; x < 1000; x++) {
+  if (x === 5) {
+    break // continue
+  }
+  console.log(x)
+}
