@@ -17,32 +17,32 @@ false;
 
 
 
-  console.log(x == '10');  true
-  console.log(x === '10');  false
-  console.log(x !== '10');  true
-  console.log(x > 6);  true
-  console.log(x < 6);  false 
-  console.log(x >= '10');  true
-  console.log(x <= '10');  true
+  console.log(x == '10');
+  console.log(x === '10');
+  console.log(x !== '10');
+  console.log(x > 6);
+  console.log(x < 6); 
+  console.log(x >= '10');
+  console.log(x <= '10');
 
 
 
 
 
-console.log(true && false);  false
-console.log(true || false);  true
-console.log(!true);  false
+console.log(true && false);
+console.log(true || false);
+console.log(!true);
 
 
 
 
 
 
-console.log(5 > '');   true
-console.log(5 > 'code');   false
-console.log(5 < 'code');   false
-console.log('5' > '6');   false
-console.log('5' < '6');   true
+console.log(5 > '');
+console.log(5 > 'code');
+console.log(5 < 'code');
+console.log('5' > '6');
+console.log('5' < '6');
 
 
 let y = 5;
@@ -79,7 +79,7 @@ if (x === 'third') {
 } else if (x === 'second') {
   console.log('this line ran');
 } else {
-  console.log('this line ran') `this line ran` 
+  console.log('this line ran'); 
 }
 
 
@@ -125,7 +125,7 @@ while (q < 5) {
 
 let h = 10;
 do {
-  console.log('always runs once')  
+  console.log('always runs once');  
 } while (h > 20)
 
 for (let x = 0; x < 1000; x++) {
